@@ -7,13 +7,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Ruta para la página principal */}
+        
         <Route path="/" element={<Home />} />
         
-        {/* Ruta para el Inicio de Sesión */}
+        
         <Route path="/login" element={<Login />} />
         
-        {/* Ruta para el Registro */}
+        
         <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
